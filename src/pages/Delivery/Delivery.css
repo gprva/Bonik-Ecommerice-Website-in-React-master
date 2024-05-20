@@ -1,0 +1,25 @@
+.delivery_tit{
+	color: #101e64;
+	font-weight: 500;
+	font-size: 45px;
+	margin: 40px 0 50px;
+}
+.delivery_txt{
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 19px;
+	color: black;
+}
+.abaut_txt_card{
+	color: #232645;
+	
+}
+.flex{
+    display: flex;
+    width: 300px;
+    align-items: center;
+}
+.flex_df{
+    display: flex;
+    justify-content: space-between;
+}

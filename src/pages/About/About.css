@@ -1,0 +1,17 @@
+.about_tit{
+	color: #101e64;
+	font-weight: 500;
+	font-size: 45px;
+	margin: 40px 0 50px;
+}
+.about_txt{
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 19px;
+	color: black;
+}
+.about_txt_2{
+	color: #4f4e4e;
+	border-left: 4px  solid #101e64;
+	padding: 7px;	
+}
