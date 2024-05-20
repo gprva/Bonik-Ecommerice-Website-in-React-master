@@ -1,0 +1,27 @@
+.contact_main{
+    background: url(../../imges/contact/Contact_us1.jpg)no-repeat;
+    width: 100%;
+    height: 395px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #a2a2a2;;
+    position: relative;
+    margin: 100px 0 80px;
+}
+.contact_tit{
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 72px;
+        margin: 40px 0 50px;
+        text-align: center;
+        padding: 12%
+    }
+.contact_phon{
+    color: black;
+    margin-bottom: 20px;
+}
+p span{
+    font-weight: 500;
+    font-size: 18px;
+}
