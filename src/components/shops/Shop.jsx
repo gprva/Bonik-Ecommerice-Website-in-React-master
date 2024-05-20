@@ -2,7 +2,6 @@ import React from "react"
 import Catg from "./Catg"
 import ShopCart from "./ShopCart"
 import "./style.css"
-import Categories from "../MainPage/Categories"
 
 const Shop = ({ addToCart, shopItems }) => {
   return (
