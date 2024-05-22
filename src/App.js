@@ -9,7 +9,7 @@ import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
 import About from "./pages/About/About"
 import Delivery from "./pages/Delivery/Delivery"
-import Payment from "./pages/Payment/Payment"
+import Phone from "./categoryPage/Phone/Phone"
 import Contact from "./pages/Contact/Contact"
 import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min"
 
@@ -75,12 +75,12 @@ function App() {
             <Delivery/>
           </Route>
 
-          <Route path='/payment' exact>
-            <Payment/>
-          </Route>
-
           <Route path='/contact' exact>
             <Contact/>
+          </Route>
+
+          <Route path='/phone' exact>
+            <Phone/>
           </Route>
           
 
