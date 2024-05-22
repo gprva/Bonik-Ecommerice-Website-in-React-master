@@ -15,16 +15,16 @@ const Phone = ({ productItems, addToCart, CartItem, shopItems }) => {
               </li>
               
               <li className="link_for_category">
-                <Link  to='/about'>Hоутбуки</Link>
+                <Link  to='/laptop'>Hоутбуки</Link>
               </li>
               <li className="link_for_category">
-                <Link  to='/delivery'>Планшеты</Link>
+                <Link  to='/tablet'>Планшеты</Link>
               </li>
               <li className="link_for_category">
-                <Link  to='/contact'>Смарт-часы</Link>
+                <Link  to='/watch'>Смарт-часы</Link>
               </li>
               <li className="link_for_category">
-                <Link  to='/contact'>Бытовая техника</Link>
+                <Link  to='/appliances'>Бытовая техника</Link>
               </li>
               <li className="link_for_category">
                 <Link  to='/contact'>Игровые приставки</Link>

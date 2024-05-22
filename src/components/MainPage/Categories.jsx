@@ -74,10 +74,10 @@ const Navbar = () => {
                 <Link className="link_for_category" to='phone'>Смартфоны</Link>
               </li>
               <li>
-                <Link className="link_for_category" to='/about'> Hоутбуки</Link>
+                <Link className="link_for_category" to='/laptop'> Hоутбуки</Link>
               </li>
               <li>
-                <Link className="link_for_category" to='/delivery'>Планшеты</Link>
+                <Link className="link_for_category" to='/tablet'>Планшеты</Link>
               </li>
               <li>
                 <Link className="link_for_category" to='/contact'>Смарт-часы</Link>

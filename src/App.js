@@ -11,6 +11,10 @@ import About from "./pages/About/About"
 import Delivery from "./pages/Delivery/Delivery"
 import Phone from "./categoryPage/Phone/Phone"
 import Contact from "./pages/Contact/Contact"
+import Laptop from "./categoryPage/Laptop/Laptop"
+import Tablet from "./categoryPage/Tablet/Tablet"
+import Watch from "./categoryPage/Watch/Watch"
+import Appliances from "./categoryPage/Appliances/Appliances"
 import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min"
 
 function App() {
@@ -82,6 +86,26 @@ function App() {
           <Route path='/phone' exact>
             <Phone/>
           </Route>
+
+          <Route path='/laptop' exact>
+            <Laptop/>
+          </Route>
+
+          <Route path='/tablet' exact>
+            <Tablet/>
+          </Route>
+
+          <Route path='/watch' exact>
+            <Watch/>
+          </Route>
+
+          <Route path='/appliances' exact>
+            <Appliances/>
+          </Route>
+
+          
+
+          
           
 
           <Route path='/cart' exact>
