@@ -28,9 +28,6 @@ const Navbar = () => {
                 <Link to='/delivery'>delivery</Link>
               </li>
               <li>
-                <Link to='/payment'>payment</Link>
-              </li>
-              <li>
                 <Link to='/contact'>contact</Link>
               </li>
             </ul>
